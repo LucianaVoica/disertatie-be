@@ -22,10 +22,11 @@ public class PacientiServiceImpl implements  PacientiService{
     }
 
     @Override
-    public AdaugaPacientCommand getPacientById(String id) {
-        Optional<Pacienti> pacientiOptional = pacientRepository.findById(String.valueOf(id));
-        return pacientiOptional.map(this::convertToCommand).orElse(null);
+    public Optional<Pacienti> getPacientById(String id) {
+        return pacientRepository.findById(id);
     }
+
+
 
     @Override
     public void adaugaPacient(AdaugaPacientCommand pacientCommand) {
