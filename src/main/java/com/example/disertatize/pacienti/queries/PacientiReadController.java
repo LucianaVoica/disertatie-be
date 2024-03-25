@@ -25,7 +25,6 @@ public class PacientiReadController {
 
     @GetMapping("/pacienti/{id}")
     public Optional<Pacienti> getPacientById(@PathVariable String id){
-     System.out.println("id = " + id );
         return  pacientService.getPacientById(id);
     }
 

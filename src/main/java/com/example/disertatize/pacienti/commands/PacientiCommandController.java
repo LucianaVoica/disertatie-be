@@ -2,6 +2,7 @@ package com.example.disertatize.pacienti.commands;
 
 
 import com.example.disertatize.pacienti.commands.command.AdaugaPacientCommand;
+import com.example.disertatize.pacienti.queries.dto.Pacient;
 import com.example.disertatize.pacienti.services.pacienti.PacientiService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,8 +23,8 @@ public class PacientiCommandController {
         pacientService.adaugaPacient(pacient);
     }
 
-    @PutMapping("/{id}/modifica")
-    public void modificaPacient(@PathVariable String id, @RequestBody AdaugaPacientCommand pacient) {
+    @PostMapping("/{id}/modifica")
+    public void modificaPacient(@PathVariable String id, @RequestBody Pacient pacient) {
         pacientService.modificaPacient(id, pacient);
     }
 

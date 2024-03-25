@@ -2,6 +2,7 @@ package com.example.disertatize.pacienti.services.pacienti;
 
 import com.example.disertatize.entity.Pacienti;
 import com.example.disertatize.pacienti.commands.command.AdaugaPacientCommand;
+import com.example.disertatize.pacienti.queries.dto.Pacient;
 import com.example.disertatize.repository.PacientRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -26,8 +27,6 @@ public class PacientiServiceImpl implements  PacientiService{
         return pacientRepository.findById(id);
     }
 
-
-
     @Override
     public void adaugaPacient(AdaugaPacientCommand pacientCommand) {
         Pacienti pacienti = convertToEntity(pacientCommand);
@@ -35,7 +34,7 @@ public class PacientiServiceImpl implements  PacientiService{
     }
 
     @Override
-    public void modificaPacient(String id, AdaugaPacientCommand pacient) {
+    public void modificaPacient(String id, Pacient pacient) {
 
         Pacienti pacientExistent = pacientRepository.findById(String.valueOf(id)).orElseThrow(() ->new IllegalArgumentException("Pacientul  nu a fost gasit"));
 
