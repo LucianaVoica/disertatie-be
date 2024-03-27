@@ -1,4 +1,4 @@
-package com.example.disertatize.pacienti.utils.cnp;
+package com.example.disertatize.utils.cnp;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;

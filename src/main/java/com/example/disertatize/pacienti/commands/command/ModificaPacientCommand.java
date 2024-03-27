@@ -1,13 +1,11 @@
 package com.example.disertatize.pacienti.commands.command;
 
 
-import com.example.disertatize.pacienti.utils.cnp.Cnp;
-import com.example.disertatize.pacienti.utils.phone.Phone;
+import com.example.disertatize.utils.cnp.Cnp;
+import com.example.disertatize.utils.phone.Phone;
 import jakarta.validation.constraints.*;
 import lombok.Getter;
 import lombok.Setter;
-
-import java.time.LocalDateTime;
 
 @Getter
 @Setter

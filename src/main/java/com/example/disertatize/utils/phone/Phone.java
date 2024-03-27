@@ -1,4 +1,4 @@
-package com.example.disertatize.pacienti.utils.phone;
+package com.example.disertatize.utils.phone;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;

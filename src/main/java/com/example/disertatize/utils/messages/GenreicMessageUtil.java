@@ -1,4 +1,4 @@
-package com.example.disertatize.pacienti.utils.messages;
+package com.example.disertatize.utils.messages;
 
 import lombok.experimental.UtilityClass;
 

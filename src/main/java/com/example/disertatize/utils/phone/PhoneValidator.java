@@ -1,4 +1,4 @@
-package com.example.disertatize.pacienti.utils.phone;
+package com.example.disertatize.utils.phone;
 
 import io.micrometer.common.util.StringUtils;
 import jakarta.validation.ConstraintValidator;

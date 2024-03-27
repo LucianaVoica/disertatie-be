@@ -1,7 +1,7 @@
 package com.example.disertatize.pacienti.queries;
 
 import com.example.disertatize.entity.Pacienti;
-import com.example.disertatize.pacienti.services.pacienti.PacientiService;
+import com.example.disertatize.services.PacientiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

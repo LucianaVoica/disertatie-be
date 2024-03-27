@@ -1,4 +1,4 @@
-package com.example.disertatize.pacienti.services.pacienti;
+package com.example.disertatize.services;
 
 import com.example.disertatize.entity.Pacienti;
 import com.example.disertatize.pacienti.commands.command.AdaugaPacientCommand;

@@ -1,4 +1,4 @@
-package com.example.disertatize.pacienti.utils.messages;
+package com.example.disertatize.utils.messages;
 
 import org.springframework.context.MessageSource;
 import org.springframework.lang.Nullable;

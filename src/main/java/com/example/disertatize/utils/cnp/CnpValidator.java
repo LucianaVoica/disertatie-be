@@ -1,4 +1,4 @@
-package com.example.disertatize.pacienti.utils.cnp;
+package com.example.disertatize.utils.cnp;
 
 import io.micrometer.common.util.StringUtils;
 import jakarta.validation.ConstraintValidator;

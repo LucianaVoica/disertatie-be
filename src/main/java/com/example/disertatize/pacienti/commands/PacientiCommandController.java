@@ -3,7 +3,7 @@ package com.example.disertatize.pacienti.commands;
 
 import com.example.disertatize.pacienti.commands.command.AdaugaPacientCommand;
 import com.example.disertatize.pacienti.queries.dto.Pacient;
-import com.example.disertatize.pacienti.services.pacienti.PacientiService;
+import com.example.disertatize.services.PacientiService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
